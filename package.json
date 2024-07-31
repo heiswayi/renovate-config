@@ -1,0 +1,22 @@
+{
+  "name": "renovate-config",
+  "version": "1.0.0",
+  "description": "Renovate Bot config for my repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heiswayi/renovate-config.git"
+  },
+  "author": "Heiswayi Nrird",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heiswayi/renovate-config/issues"
+  },
+  "homepage": "https://github.com/heiswayi/renovate-config#readme",
+  "devDependencies": {
+    "renovate": "^38.13.4"
+  }
+}
