@@ -1,12 +1,9 @@
 {
     "extends": [
-      "config:base",
+      "config:recommended",
       "group:allNonMajor",
       ":semanticCommitTypeAll(chore)"
     ],
-    "meteor": {
-      "enabled": false
-    },
     "rangeStrategy": "bump",
     "npm": {
       "commitMessageTopic": "{{prettyDepType}} {{depName}}"
