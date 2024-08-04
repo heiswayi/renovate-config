@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/heiswayi/renovate-config#readme",
   "devDependencies": {
-    "renovate": "^38.13.4"
+    "renovate": "^38.18.12"
   }
 }
